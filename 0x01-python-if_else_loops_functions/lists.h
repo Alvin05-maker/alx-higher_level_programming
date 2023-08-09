@@ -2,8 +2,8 @@
 #define LISTS_H_
 
 def islower(c);
-def uppercae(str);
+def uppercase(str);
 def print_last_digit(number);
-
+def add(a,b);
 
 #endif /* LISTS_H_ */
