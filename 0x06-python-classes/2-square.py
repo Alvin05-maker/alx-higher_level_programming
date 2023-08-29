@@ -17,3 +17,8 @@
          elif size < 0:
              raise ValueError("size must be >= 0")
          self._size = size
+
+         def area(self):
+             """ area of the new square"""
+
+             return (self.__size * self.__size)
