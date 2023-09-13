@@ -1,11 +1,11 @@
 #!/usr/bin/python3
+""" Define a class MyList."""
+
 
 class MyList(list):
-    """ MyList class that inherits from the builtin list. """
-    def __init__(self, iterable):
-        """initializes MyList class"""
-        super().__init__([int(item) for item in iterable])
+    """ Return a list in ascending sort manner"""
+
     def print_sorted(self):
-        """ Prints the list inn ascending sort order. """
-        sorted_list = sorted(self)
-        print(sorted_list)
+        """ Prints the list in ascending sort."""
+        sorted_self = sorted(self)
+        print(sorted_self)
