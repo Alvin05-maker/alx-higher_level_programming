@@ -5,14 +5,10 @@ import unittest
 max_integer = __import__('6-max_integer').max_integer
 
 
-class MaxInt_test(unittest.TestCase):
+class TestMaxInteger(unittest.TestCase):
     def Empty_list_test(self):
         """
-        Tests with empty lists
-
-        Args:
-            self : Argument
-
+            Tests with empty lists
         """
         self.assertIsNone(max_integer([]))
 
