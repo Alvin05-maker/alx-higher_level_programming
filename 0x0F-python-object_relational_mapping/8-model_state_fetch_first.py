@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     Session = sessionmaker(bind=engine)
     session = Session()
-    firstInstance = query(States).first()
+    firstInstance = session.query(States).first()
     if firstInstance is None:
         print("Nothing")
     else:
