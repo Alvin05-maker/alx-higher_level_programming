@@ -3,7 +3,7 @@ def number_keys(a_dictionary):
     num = 0
     keys_list = list(a_dictionary.keys())
 
-    for idx in list_keys:
+    for idx in keys_list:
         num += 1
 
     return (num)
